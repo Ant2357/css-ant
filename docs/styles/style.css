@@ -1,0 +1,112 @@
+
+body {
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url("../imgs/qbkls.png")
+}
+
+:root {
+  --ant-color: #635994;
+  --ant-eye: #533566;
+  --ant-antenna: #533566;
+  --ant-leg: #533566;
+}
+
+.container {
+  position: relative;
+  width: 260px;
+  height: 220px;
+}
+
+/* 触覚 */
+.ant__antenna {
+  left: 25px;
+  width: 5px;
+  position: absolute;
+  height: 60px;
+  background-color: var(--ant-antenna);
+  transform: rotate(-45deg);
+}
+
+/* 頭 */
+.ant__head {
+  top: 45px;
+  position: absolute;
+  z-index: -1;
+  width: 80px;
+  height: 60px;
+  background-color: var(--ant-color);
+  border: solid 5px var(--ant-color);
+  border-radius: 50%;
+}
+
+/* 目 */
+.ant__eye {
+  left: 20px;
+  top: 60px;
+  position: absolute;
+  z-index: -1;
+  width: 5px;
+  height: 10px;
+  background-color: var(--ant-eye);
+  border: solid 5px var(--ant-eye);
+  border-radius: 50%;
+}
+
+/* 胸 */
+.ant__body {
+  left: 70px;
+  top: 95px;
+  position: absolute;
+  z-index: -1;
+  width: 40px;
+  height: 40px;
+  background-color: var(--ant-color);
+  border: solid 5px var(--ant-color);
+  border-radius: 50%;
+}
+
+/* 腹 */
+.ant__ass {
+  left: 90px;
+  top: 125px;
+  position: absolute;
+  z-index: -1;
+  width: 90px;
+  height: 100px;
+  background-color: var(--ant-color);
+  border: solid 5px var(--ant-color);
+  border-radius: 50%;
+}
+
+/* 足 */
+.ant__leg1 {
+  z-index: -2;
+  left: 62px;
+  top: 110px;
+  width: 5px;
+  position: absolute;
+  height: 125px;
+  background-color: var(--ant-leg);
+  transform: rotate(22deg);
+}
+
+.ant__leg2 {
+  z-index: -2;
+  left: 55px;
+  top: 115px;
+  width: 5px;
+  position: absolute;
+  height: 70px;
+  background-color: var(--ant-leg);
+  transform: rotate(45deg);
+}
+
+.ant__leg3 {
+  z-index: -2;
+  left: 84px;
+  top: 120px;
+  width: 5px;
+  position: absolute;
+  height: 111px;
+  background-color: var(--ant-leg);
+}
